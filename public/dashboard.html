@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>realScatter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="libraries/d3-v3.js"></script>
+    <!-- <script src="libraries/d3-v4.js"></script> -->
+    <link href="libraries/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+        
+        .area {
+            fill: none;
+            stroke-width: 0;
+        }
+        
+        .dot {
+            stroke: #000;
+        }
+        
+        .tooltip {
+            position: absolute;
+            width: 200px;
+            height: 28px;
+            pointer-events: none;
+        }
+        
+        svg {
+            border: solid 2px black;
+            margin: 25px;
+            font: 11px sans-serif;
+        }
+        /* .label {
+            font-weight: bolder;
+            font-size: 12px;
+        }
+        
+        g.legend {
+            margin-top: 20px;
+        } */
+    </style>
+
+    <body>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong><h2 class="panel-title">D3 Graph Test</h2></strong>
+            </div>
+            <div id="landing" class="panel-body">
+                Graphs
+            </div>
+        </div>
+        <script src="assets/js/scatter.js"></script>
+        <!-- <script src="assets/js/line.js"></script>
+        <script src="assets/js/bar.js"></script> -->
+
+    </body>
+
+</html>
