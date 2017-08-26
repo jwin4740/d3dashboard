@@ -3,5 +3,94 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #1D1D20;
+    color: white;
+}
+
+.nav{
+    margin-right: 5px;
+  
+}
+.searchHolder{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 215px;
+  height: 30px;
+  background-color: black;
+ 
+
+}
+.navbar{
+    font-family: 'Arvo', serif;
+    padding: 5px;
+    background-color: black;
+}
+
+
+ul{
+    float: right;
+    margin-right: 20px;
+}
+
+li{
+    float: right;
+}
+#dashboardTitle{
+    font-size: 14px;
+}
+.headWells {
+    background-color: black;
+    line-height: 8vh;
+    height: 8vh;
+    font-family: 'Arvo', serif;
+}
+img{
+    float: left;
+}
+.titleHeader {
+    float: left;
+    margin: 0px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+
+.area {
+    fill: none;
+    stroke-width: 0;
+}
+
+.dot {
+    stroke: black;
+}
+
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    pointer-events: none;
+}
+
+svg {
+    border: solid 2px white;
+    margin: 25px;
+    font: 11px sans-serif;
+    fill: white;
+}
+
+.label {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.tick {
+    color: white;
 }

@@ -1,0 +1,25 @@
+{
+  "name": "d3dashboard",
+  "version": "1.0.0",
+  "description": "n",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwin4740/d3dashboard.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwin4740/d3dashboard/issues"
+  },
+  "homepage": "https://github.com/jwin4740/d3dashboard#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
