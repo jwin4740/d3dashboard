@@ -14,6 +14,11 @@
                    break;
            }
        }
+
+       var screenWidth = window.innerWidth;
+       var screenHeight = window.innerHeight;
+       console.log(screenWidth);
+       console.log(screenHeight);
        var algorithmsArray = ["Logistic Regression", "Random Forest", "Gradient Boosting", "Naive Bayes"];
        var parsedArray2 = [];
        // constructor function for points
@@ -33,8 +38,8 @@
                bottom: 40,
                left: 50
            },
-           width = 680 - margin.left - margin.right,
-           height = 450 - margin.top - margin.bottom;
+           width = (screenWidth / 3) - margin.left - margin.right,
+           height = (screenHeight / 2) - margin.top - margin.bottom;
 
        /* 
         * value accessor - returns the value to encode for a given data object.
@@ -142,7 +147,7 @@
                .data(parsedArray2)
                .enter().append("circle")
                .attr("class", "dot")
-               .attr("r", 3.25)
+               .attr("r", 2.5)
                .attr("cx", xMap)
                .attr("cy", yMap)
                .style("fill", function(d) {
