@@ -1,22 +1,6 @@
-       function findColor(algorithm) {
-           switch (algorithm) {
-               case algorithmsArray[0]:
-                   return "blue";
-                   break;
-               case algorithmsArray[1]:
-                   return "red";
-                   break;
-               case algorithmsArray[2]:
-                   return "green";
-                   break;
-               case algorithmsArray[3]:
-                   return "black";
-                   break;
-           }
-       }
-
-       var screenWidth = window.innerWidth;
-       var screenHeight = window.innerHeight;
+const screenWidth = window.innerWidth;
+const screenHeight = window.innerHeight;
+   
        console.log(screenWidth);
        console.log(screenHeight);
        var algorithmsArray = ["Logistic Regression", "Random Forest", "Gradient Boosting", "Naive Bayes"];
