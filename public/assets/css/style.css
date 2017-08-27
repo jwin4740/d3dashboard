@@ -30,13 +30,10 @@ body {
 
 
 ul{
-    float: right;
+    float: left;
     margin-right: 20px;
 }
 
-li{
-    float: right;
-}
 #dashboardTitle{
     font-size: 14px;
 }
@@ -56,6 +53,12 @@ img{
     padding: 10px;
 }
 
+#cmor{
+    float: right;
+    color: #FCB913;
+    font-size: 14px;
+    font-weight: bolder;
+}
 .axis path,
 .axis line {
     fill: none;
